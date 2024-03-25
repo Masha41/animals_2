@@ -50,10 +50,10 @@ public abstract class Animal {
     }
 
     public void setName() {
-String name = "";
+    String name = "";
        while (true) {
-    System.out.println("Введите имя животного");
-    name = scanner.next().trim();
+          System.out.println("Введите имя животного");
+          name = scanner.next().trim();
     if (validators.isStringChars(name)) {
         break;
     }
@@ -63,7 +63,7 @@ String name = "";
     }
 
     public void setWeight() {
-String weightStr = "";
+    String weightStr = "";
         while (true){
             System.out.println("Введите вес животного");
             weightStr = scanner.next().trim();
