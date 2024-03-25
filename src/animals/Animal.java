@@ -54,7 +54,7 @@ public abstract class Animal {
        while (true) {
           System.out.println("Введите имя животного");
           name = scanner.next().trim();
-    if (validators.isStringChars(name)) {
+          if (validators.isStringChars(name)) {
         break;
     }
     System.out.println("Вы ввели неверное имя животного");
